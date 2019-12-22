@@ -1,0 +1,12 @@
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\Portal.exe.config
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\Portal.exe
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\Portal.pdb
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\Banking.dll
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\BankingHandlers.dll
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\Govt.dll
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\BankingHandlers.pdb
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\Banking.pdb
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\bin\Debug\Govt.pdb
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\obj\Debug\Portal.csprojResolveAssemblyReference.cache
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\obj\Debug\Portal.exe
+c:\users\dac\documents\visual studio 2015\Projects\IndianCitizen\Portal\obj\Debug\Portal.pdb

@@ -1,0 +1,63 @@
+Day 3: Agenda
+Sunday Assignment :
+Build Mini Graphics Editor using C# Programming, Winforms and Event Delegation Model 
+
+Objective:
+	1.Understand importance of Event Driven Mechanism
+	2.Build Interactive, Event based Paint Brush
+	3.Explore internal events, delegates of Winforms
+	4.Build Loosely ,coupled Graphics Editor Solution
+	5.Explore Collection to store different types of shapes in Graphics
+	  Editor Application.
+	6.Apply Serialization and Reflection technique for achieving 	  persistence to store and restore Shaped drawn using Graphics
+	  Editor.
+
+
+
+Tasks for Implementing  IndianCitizen Portal
+
+Add new empty solution IndiaCitizen Portal using Visual Studio .NET
+Add new Console Application Portal to IndianCitized Portal
+Add new Class Library Banking
+Add new Class Library BankingHandlers
+Add new Class Library Govt.
+Please review IndianCitizenPortal Demo Solution shared and implement accordingly.
+
+
+
+
+
+Tasks for Implementing  Graphics Editor:
+
+1.Add new Project GraphicsEditor inside Solution using Windows forms .NET Framework.
+2.Add new Menustrip from toolbox to Form
+3.Add standard menus by clicking smart tag shown on right side of Menustrip present on top right position of form
+4.Change the backColor property of Menu Item Exit of your choice using Property window of Project.
+5.Add New Menu Shape to Main Menue.
+6.Add submenu items to Shape such as Line, Rectangle, Ellipse.
+7.Change name property of submenu items to mnuItemLine, mnuItemRectangle,mnuItemEllipse.
+8.Add one more submenue GDI to Main Menu
+9.Add Pen menu item to GDI Menu Item.
+10.Add Color subMenu Item to Pen Menu Item inside Shape.
+11.Add event handler OnPenColor () to Click event handler for Color menu item
+12.Define StartPoint, EndPoint, shapeColor as Data members for Form class.
+13.Add event handlers for Form class such as OnMouseDown, OnMouseUp.
+14.Implment Logic to Draw Line in OnMouseUp event handler in Form1.cs file.
+15.Explore differnt type of Shapes such as Line, Rectangle, Ellipse,etc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

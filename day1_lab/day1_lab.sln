@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingLib", "BankingLib\Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Printer", "Printer\Printer.csproj", "{3E6A48C9-6E0C-4DA7-8CC3-FBFBC2BE3808}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HrLibrary", "HrLibrary\HrLibrary.csproj", "{562F85CD-2F67-4B00-940D-39AD99DB33C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTest", "SampleTest\SampleTest.csproj", "{00A10275-E511-4F76-BB4C-9529051DBA6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{3E6A48C9-6E0C-4DA7-8CC3-FBFBC2BE3808}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6A48C9-6E0C-4DA7-8CC3-FBFBC2BE3808}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6A48C9-6E0C-4DA7-8CC3-FBFBC2BE3808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562F85CD-2F67-4B00-940D-39AD99DB33C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562F85CD-2F67-4B00-940D-39AD99DB33C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562F85CD-2F67-4B00-940D-39AD99DB33C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562F85CD-2F67-4B00-940D-39AD99DB33C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A10275-E511-4F76-BB4C-9529051DBA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A10275-E511-4F76-BB4C-9529051DBA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A10275-E511-4F76-BB4C-9529051DBA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A10275-E511-4F76-BB4C-9529051DBA6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
