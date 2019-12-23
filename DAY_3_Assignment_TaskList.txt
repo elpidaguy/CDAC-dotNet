@@ -1,0 +1,51 @@
+tasks for Windows forms and ASP.NET MVC Application Implementation
+
+Windows Based UI
+	`
+Serialization
+1.Add new Winforms Project Manager
+2.Add Event handlers for Open and Save As Menu Item
+3.Add New Class Library BOL in existing Solution
+4.Add new Class Customer in BOL Class Library
+5.Add Auto properties to Customer class
+	public string FirstName { get; set; }
+	public string LastName { get; set; }
+        public string ContactNumber { get; set; }
+        public DateTime BirthDate { get; set; }
+6.Add Serializable attribute to Customer class.
+			
+7.Add Generic List Collection instance to Form1 class of Manager in Winforms Application
+8.Design Form1 for Customer Registration Process with the help of Label, TextBox, DateTime picker controls
+9.Change Name properties of those controle with meaningful names.
+10.Add Register Button to Form1.
+11.Add DataGridView Control to form and Dock to Bottom of form
+12.Add Click Event handler to Button Register
+13.Add Logic for capturing data from controls to varialble and create Customer instnace using Property Initilization
+14.Add newly create customer instance to List of Customers maintained by Form1.
+
+15.Implement Logic for SaveAs Menu Item  to show SaveAs Dialog and Serializtion 
+16.Implement Logic for Open Menu Item to show OpenFileDialog and DeSerializtion with the help of FileStream, BinaryFormatter instnace
+
+			
+			
+Web Based Application Development using ASP.NET mvc
+
+17.Request Response Architecture for Web Based Application
+18.Build A simple Web Project As TransflowerOnline using ASP.NET Empty Project
+19.Add HomeController, FlowersController, ShoppingCartController, AccountController to MVC Project
+20.Add Action Method Index, AboutUs, Contact, Services to Home Controller
+21.Add View to Index, AboutUs, Contact, Services action methods
+22.Add Presentation Logic for each View (index.cshtml, aboutus.cshtml , contact.cshtml, services.cshtml)
+23.Build and Run MVC Application
+24.invoke each action to test in browser by 
+	http://localhost:yourport/home/index
+	http://localhost:yourport/home/aboutus
+	http://localhost:yourport/home/contact
+	http://localhost:yourport/home/services
+25.Update FlowersController Method  index to Show to Flowers  list
+				
+	http://localhost:yourport/flowers/index
+26.Add Flower as Model class with its Attribute
+27.Add flower instances  in Index method of FlowersController in MVC Appliation 
+28.Use ViewData["flowers"] inbuilt collection to define Model to transfer to View.
+29.Implement logic to show list of flower in index.cshtml file of flowersController
