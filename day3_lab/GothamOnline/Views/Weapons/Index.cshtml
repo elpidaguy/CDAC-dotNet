@@ -1,0 +1,34 @@
+﻿@using GothamOnline.Models;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Weapons Available</h2>
+
+
+<table class="table table-sm table-striped table-bordered">
+    <thead class="btn-primary text-white">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @{
+
+            List<Products> weapons = ViewData["weapons"] as List<Products>;
+            foreach (Products weapon in weapons)
+            {
+                <tr>
+                    <td>@weapon.ID</td>
+                    <td>@weapon.Name</td>  
+                    <td>@weapon.Desc</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+
