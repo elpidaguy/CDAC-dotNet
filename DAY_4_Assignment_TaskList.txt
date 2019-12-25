@@ -1,0 +1,51 @@
+
+Tasks:
+
+Build complete NTier Data Driven ASP.NET MVC APPLICATION using C#, ADO.net 
+
+
+1.Add new  class Library  BOL to Solution
+2.Add new class Library DAL to Solution
+3.Add new class library project BLL to Solution
+4.Add new Class Student to BOL Project
+5.Add new TraningRepository class to DAL Project
+6.Add new method GetAll to TrainingRepository method
+7.Add new TrainingManager class to BLL
+8.Add new GetAllStudents method to TrainingManager class.
+9.Invoke Students from DAL to BLL in TrainingManager.
+10.Add new Controller StudentsController to TrainsflowerOnline asp.net mvc project
+11.Add Implementation for Index method of StudentsController to invoke students from BLL project
+12.Transfer students list to View using view() method.
+13.Add new View index.cshtml using Visual Studio.NET
+14.Use Html helper function to define presentation for index.cshtml
+15.Add new class HRRepository to DAL.
+16.Add new Table Employees in TFLGreenHouse.mdf database file in APP_DATA folder.
+17.Add fields to Employees table according to properties defined in Employee BOL class.
+18.Add few records in Employees table
+19.Add GetAll and Get methods to EmployeeDAL class in  HRRepository.cs file
+20.Add logic to fetching all employees data from employees table using ado.net
+ 	    * 1.Create  emty  List of Employees collection
+             * 2. Define Connection string to provide database related informtion
+             * 3. Define Command Text (SQL)  for querying data from Database Table
+             * 4. Create a Connection instance using SqlConnection class
+             * 5. Associate Connection string with connection instance
+             * 6. Create a Command instance using Constructor Dependency Injection
+             * 7. Define try ,cath and finally block
+             * 8. Open Connection 
+             * 9. Execute Command using Command instance with the help of ExecuteReader method
+             * 10 Collect fetched records from database in DataReader insance.
+             * 11.Iterate Data Reader till end of records of DataReader
+             * 12.Create new instance of Employee from reader
+             * 13.Add newly created instance of Employee BOL in employees list
+             * 14.Close DataReader 
+             * 15. Close Connection
+             * 16.return List
+21.Add logic for HRManager in BLL to fetch DAL data
+22.Add new Controller EmployeesController in TransflowerOnline Web project
+23.Add Index and Detail action methods to EmployeesController
+24.Add logic to getch data from BLL
+26.Add views for index and Details action method of EmployeesController
+27.Implment logic for presnetation for both views index and Detail
+28.Test MVC Application
+
+
