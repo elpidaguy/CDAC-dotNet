@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileSaveOpen", "FileSaveOpen\FileSaveOpen.csproj", "{24E63F08-C4C9-41E8-80A3-297DFFC6BEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BOL", "BOL\BOL.csproj", "{B450E334-CC9C-486C-917E-1309B2F5CEBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GothamOnline", "GothamOnline\GothamOnline.csproj", "{F6E0709A-DADC-44D8-A96A-13E9F98E88BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{36502C62-8B0C-4E30-9D74-948FB99F60CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{580CE3B9-CF1A-4EBF-B33D-1A216F3F6085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathsSAASWebApp", "MathsSAASWebApp\MathsSAASWebApp.csproj", "{C6859125-C93F-43C1-B878-09E3D19C79FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServiceConsumer", "MathServiceConsumer\MathServiceConsumer.csproj", "{FC53102B-25CE-4E0D-8B06-A7D33D83FD79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24E63F08-C4C9-41E8-80A3-297DFFC6BEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24E63F08-C4C9-41E8-80A3-297DFFC6BEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24E63F08-C4C9-41E8-80A3-297DFFC6BEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24E63F08-C4C9-41E8-80A3-297DFFC6BEB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B450E334-CC9C-486C-917E-1309B2F5CEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B450E334-CC9C-486C-917E-1309B2F5CEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B450E334-CC9C-486C-917E-1309B2F5CEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B450E334-CC9C-486C-917E-1309B2F5CEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E0709A-DADC-44D8-A96A-13E9F98E88BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E0709A-DADC-44D8-A96A-13E9F98E88BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E0709A-DADC-44D8-A96A-13E9F98E88BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E0709A-DADC-44D8-A96A-13E9F98E88BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36502C62-8B0C-4E30-9D74-948FB99F60CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36502C62-8B0C-4E30-9D74-948FB99F60CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36502C62-8B0C-4E30-9D74-948FB99F60CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36502C62-8B0C-4E30-9D74-948FB99F60CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580CE3B9-CF1A-4EBF-B33D-1A216F3F6085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580CE3B9-CF1A-4EBF-B33D-1A216F3F6085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580CE3B9-CF1A-4EBF-B33D-1A216F3F6085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580CE3B9-CF1A-4EBF-B33D-1A216F3F6085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6859125-C93F-43C1-B878-09E3D19C79FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6859125-C93F-43C1-B878-09E3D19C79FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6859125-C93F-43C1-B878-09E3D19C79FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6859125-C93F-43C1-B878-09E3D19C79FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC53102B-25CE-4E0D-8B06-A7D33D83FD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC53102B-25CE-4E0D-8B06-A7D33D83FD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC53102B-25CE-4E0D-8B06-A7D33D83FD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC53102B-25CE-4E0D-8B06-A7D33D83FD79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+﻿@using BOL;
+@model IEnumerable<Employee>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{
+    foreach (Employee emp in @Model)
+    {
+        <p>@emp.FirstName  @emp.LastName | @Html.ActionLink("Details", "Details", new { id = emp.Id })</p>
+    }
+}

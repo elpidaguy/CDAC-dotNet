@@ -1,0 +1,71 @@
+Tasks for Implementing  MathsSAASWebApp  with the help of ASP.NET WebServices
+
+1.Add new ASP.NET MathsSAASWebApp project to solution.
+2.Add new ASP.NET ASMX MathServices to MathsSAASWebApp.
+
+3.Add the following method to the MathServices class that you just created:
+
+[WebMethod]
+public int Add(int a, int b)
+{
+   return(a + b);
+}
+
+[WebMethod]
+public System.Single Subtract(System.Single A, System.Single B)
+{
+   return (A - B);
+}
+
+[WebMethod]
+public System.Single Multiply(System.Single A, System.Single B)
+{
+   return A * B;
+}
+
+[WebMethod]
+public System.Single Divide(System.Single A, System.Single B)
+{
+   if(B == 0)
+      return -1;
+   return Convert.ToSingle(A / B);
+}
+
+4.Click Build on the Build menu to build the Web service.
+
+5.Browse to the MathService.asmx Web service page to test the Web service. If you set the local computer to host the page, the URL is http://localhost/MathService/MathService.asmx.
+
+The ASP.NET runtime returns a Web Service Help Page that describes the Web service. This page also enables you to test different Web service methods.
+
+
+Tasks to Consume a Web Service :
+
+1.Add a reference for the MathService Web service to the new console application.
+
+This step creates a proxy class on the client computer. After the proxy class exists, you can create objects based on the class. Each method call that is made with the object then goes out to the uniform resource identifier (URI) of the Web service (usually as a SOAP request).
+
+a.On the Project menu, click Add Web Reference.
+b.In the Add Web Reference dialog box, type the URL for the Web service in the Address text box and press ENTER. If you set the local computer to host the Web service, the URL is http://localhost/MathService/MathService.asmx.
+c.Click Add Reference. Alternatively, you can type the URL to the discovery file (MathService.vsdisco) or click Web References on Local Web Server in the left pane to select the MathService service from the list.
+d.Expand the Web References section of Solution Explorer and note the namespace that was used.
+
+2.Create an instance of the proxy object that was created. Place the following code in the function called Main:
+
+localhost.Service1 myMathService = new localhost.Service1();
+
+3.Invoke a method on the proxy object that you created in the previous step, as follows:
+
+Console.Write("2 + 4 = {0}", myMathService.Add(2,4));
+
+4.Click Build on the Build menu to build the console application.
+5.Click Start on the Debug menu to test the application.
+6.Close and save the project.
+
+7.Implment logic in Validate method of AccountsController to invoke AuthenticationService.asmx to Validate User using MVC TransflowerOnline Applicatoin.
+
+
+
+
+
+
+
